@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Find My Way: Southampton General Hospital</title>
+<style>
+html, body { margin: 0; background: #F0F4F5; }
+.loading { box-sizing: border-box; max-width: 560px; margin: 0 auto; min-height: 100vh; min-height: 100dvh; padding: 2rem 1.25rem; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .625rem; text-align: center; background: #005EB8; color: #FFFFFF; font-family: 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif; }
+.loading p, .loading h1 { margin: 0; }
+.loading-hospital { font-size: 1.375rem; font-weight: 800; }
+.loading-title { font-size: 3.25rem; font-weight: 900; line-height: 1.05; }
+.loading-wait { font-size: 1.4375rem; font-weight: 700; }
+</style>
+<script defer src="sgh-v7_8-app.min.js"></script>
+</head>
+<body>
+<div id="root">
+<main class="loading">
+<p class="loading-hospital">Southampton General Hospital</p>
+<h1 class="loading-title">Find My Way</h1>
+<p class="loading-wait" role="status">This takes a moment.</p>
+</main>
+</div>
+</body>
+</html>
